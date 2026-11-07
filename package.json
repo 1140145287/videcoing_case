@@ -1,0 +1,13 @@
+{
+  "name": "project2-quality-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/governance/project.test.mjs",
+    "check": "node scripts/check.mjs",
+    "check:release": "node scripts/check.mjs --release"
+  }
+}
