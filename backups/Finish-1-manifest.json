@@ -1,0 +1,42 @@
+{
+  "version": "Finish-1",
+  "product": "AI Productivity Assistant",
+  "date": "2026-11-12",
+  "encryption": "WinZip AES-256",
+  "projects": [
+    {
+      "name": "shipany-full",
+      "branch": "shipany-full",
+      "commit": "f1b369e690439f316fa52095af4bf59bf601f24a",
+      "files": 726,
+      "bundle": "shipany-full.bundle",
+      "sha256": "357210054571f2fd1c08de6f60227488e73d6a2651919b01514a73d76c6f16f8"
+    },
+    {
+      "name": "workspace",
+      "branch": "main",
+      "commit": "3901be0cccf0eea65bae08bce86fe0dd07172eca",
+      "files": 257,
+      "bundle": "workspace.bundle",
+      "sha256": "9c86a4a411359a47628e41cf74a2ac959b986d5846e1e8f41190b0177d1f8d2e"
+    }
+  ],
+  "checks": {
+    "governance": 3,
+    "business": 83,
+    "production_build": "passed",
+    "browser_workflows": "passed",
+    "full_app_typecheck": "passed",
+    "credential_scan": "passed"
+  },
+  "excludes": [
+    "environment secrets",
+    "customer databases",
+    "node_modules",
+    "build caches",
+    "recovery password"
+  ],
+  "archive_sha256": "a27131b5744b53e41ccca692d7406471467f10173091c68c6820a3a18df20d5c",
+  "archive_bytes": 55928426,
+  "restore_verified": true
+}

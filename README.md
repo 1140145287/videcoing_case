@@ -1,17 +1,21 @@
-# AI 场景诊断助手
+# AI提效赋能助手 · Finish-1
 
-面向一线销售和售前团队。输入客户访谈要点后，可查看业务流程、适合试点的 AI 应用场景和下一次拜访提纲。登录后可下载报告，后续拜访可继续更新同一份客户档案。
+面向没有 AI 基础的普通人、传统行业从业者和小店老板。说清想做什么、卡在哪里，就能获得工具官网、操作步骤和可复制的指令。访客可分析和阅读，主动登录后下载 PDF；每个新标签页默认从访客开始。
 
 ## 源码备份
 
-[下载 2026-11-11 加密备份](./backups/ai-opportunity-finder-2026-11-11.zip)。公开仓库提供产品介绍和备份包。含 ShipAny 商业脚手架的代码使用 AES-256 加密，恢复口令由项目维护者单独保管。
+[下载 Finish-1 加密备份](./backups/ai-productivity-assistant-Finish-1.zip) · [查看版本 Finish-1](https://github.com/1140145287/videcoing_case/tree/Finish-1) · [校验清单](./backups/Finish-1-manifest.json)
+
+本次备份日期为 2026-11-12。公开仓库提供产品介绍和备份包；含 ShipAny 商业脚手架的代码使用 AES-256 加密，恢复口令由项目维护者单独保管。Finish-1 保留零基础用户输入、公开教程检索、文稿生成与独立审核、文字 PDF、访客使用和登录下载等当前功能。
 
 | 备份文件 | 内容 | 提交 |
 | --- | --- | --- |
-| `shipany-full.bundle` | 正在使用的完整版，含账号、数据库适配和诊断工作台 | `784d03d` |
-| `workspace.bundle` | 独立预览、开发规范和自动化测试 | `427b6b6` |
+| `shipany-full.bundle` | 正在使用的完整版，含账号、数据库适配和 AI 工作台 | `f1b369e` |
+| `workspace.bundle` | 独立预览、开发规范和自动化测试 | `3901be0` |
 
-备份包的 SHA-256 为 `b311b12ba3a68cdc6f3ba8cdf696bf33139093aa1bd540f725bb5a94bc91b3b2`。用支持 AES 加密 ZIP 的工具和恢复口令解压后，在解压目录执行：
+Finish-1 备份包的 SHA-256 为 `a27131b5744b53e41ccca692d7406471467f10173091c68c6820a3a18df20d5c`。已验证解密、文件校验和和两个项目的独立 Git 恢复。归档前 83 项业务测试、生产构建、浏览器流程和完整版类型检查通过。
+
+用支持 AES 加密 ZIP 的工具和本次备份的恢复口令解压后，在解压目录执行：
 
 ```sh
 git clone -b shipany-full shipany-full.bundle full-app
@@ -19,6 +23,10 @@ git clone -b main workspace.bundle workspace
 ```
 
 运行所需的私密环境变量需重新配置。客户访谈数据库、云数据库内容和依赖安装目录未包含在源码备份内。
+
+## 保留的旧版本
+
+[2026-11-11 加密备份](./backups/ai-opportunity-finder-2026-11-11.zip) 保持原样，包含完整版 `784d03d` 和独立预览 `427b6b6`。旧包的 SHA-256 为 `b311b12ba3a68cdc6f3ba8cdf696bf33139093aa1bd540f725bb5a94bc91b3b2`，使用旧版本单独保存的恢复口令。Git 提交历史也保留，可随时查看和比较。
 
 ## 每次开发必须遵守
 
