@@ -1,0 +1,52 @@
+{
+  "version": "Finish-2",
+  "product": "Enterprise AI Assistant",
+  "date": "2026-11-19",
+  "status": "pre-deployment-backup",
+  "deployment_project": "enterprise-ai-assistant",
+  "domain": "aiassistant.tips",
+  "deployed": false,
+  "encryption": "WinZip AES-256",
+  "projects": [
+    {
+      "name": "shipany-full",
+      "branch": "shipany-full",
+      "commit": "cf9b2513c56f0fd0f2867e50731144bb884d8273",
+      "files": 863,
+      "bundle": "shipany-full.bundle",
+      "sha256": "f2f39bb2f5a8d56c5091609592da56e37afe5bb2de314b186edd198db11615b1",
+      "tree": "cb0222380c9e8a66d0343f2196ba1a975eb42ed1"
+    },
+    {
+      "name": "workspace",
+      "branch": "main",
+      "commit": "874dd5f4f4217cb619bb7476ebee4c529ef9a587",
+      "files": 459,
+      "bundle": "workspace.bundle",
+      "sha256": "e9f711dd0a0b154f266978e4739968cbd645c088a4490ffb08d7c16583427693",
+      "tree": "d875dde682120c3bc7aa6b565668d94d5a0b4141"
+    }
+  ],
+  "stage4": "validated",
+  "stage5": "partial preparation in workspace only; not integrated or deployed",
+  "checks": {
+    "governance": 3,
+    "business": 263,
+    "production_build": "passed",
+    "browser_workflows": "passed",
+    "stage5_component_tests": 7,
+    "full_app_typecheck": "passed",
+    "credential_scan": "passed"
+  },
+  "excludes": [
+    "environment secrets",
+    "customer databases",
+    "node_modules",
+    "build caches",
+    "temporary outputs",
+    "recovery password"
+  ],
+  "archive_sha256": "e58ce07be92bedc4004365a50d99adbbe4605a37bc84e349c2243310ae3b5e87",
+  "archive_bytes": 87594719,
+  "restore_verified": true
+}

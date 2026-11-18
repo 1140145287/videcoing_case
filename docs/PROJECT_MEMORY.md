@@ -1,5 +1,9 @@
 # 项目记忆（项目内共享）
 
+## 2026-11-19 最新版本 Finish-2
+
+最新产品英文名称 Enterprise AI Assistant，部署项目 enterprise-ai-assistant，域名 aiassistant.tips。当前为部署前加密备份，未上线。公开 main 继续只放说明和加密源码包；Finish-2 保存完整版阶段四以及预览中的阶段五未完成准备。保留 Finish-1 和旧包。完整验证与恢复见 docs/changes/2026-11-19-finish-2-backup.md、backups/Finish-2-manifest.json。
+
 AI 每次开始工作先读取 AGENTS.md，再读取本文和 docs/TESTING.md。本文记录已验证的项目事实，不存储密码、令牌或用户隐私。
 
 ## 已确定的规则
